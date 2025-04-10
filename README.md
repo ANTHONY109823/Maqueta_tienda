@@ -1,1 +1,291 @@
 # Maqueta_tienda
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pt-5">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top me-2" style="height: 30px;">
+                Tech House
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container mt-5">
+        <!-- Seccin Inicio -->
+        <section id="inicio" class="py-5 bg-primary-subtle rounded">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h1>Tech House</h1>
+                    <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top me-2" style="height: 80px;">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="p-md-5 p-2 bg-white rounded shadow-sm">
+                        <h2>Bienvenidos a Tech House</h2>
+                        <p style="text-align: justify;""> En Tech House encontrarás una amplia selección de electrodomésticos de la más alta calidad, diseñados para hacer tu vida más fácil y cómoda. Desde lo último en tecnología para tu cocina, hasta soluciones innovadoras para tu hogar, ofrecemos productos de marcas líderes a precios competitivos. Navega por nuestro catálogo y disfruta de una experiencia de compra segura, con envío rápido y atención al cliente personalizada. ¡Transforma tu hogar con los mejores electrodomésticos del mercado en </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 d-none d-md-block">
+                    <img src="https://bambu-mobile.com/wp-content/uploads/2020/12/iot-programacion-internet-de-las-cosas-software-hardware-tecnologia-innovacion-futuro.png" alt="iot" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-lg-9 col-md-6 col-12 d-flex justify-content-center">
+                    <p class="m-0 text-center text-md-start fs-5 fs-md-3"> <!-- intente que el texto sea grande a partir de md pero no pude si lo logra me avisa porfavor-->
+                        "Tecnología sin límites"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Productos -->
+        <section id="productos" class="py-5 bg-info bg-opacity-10 rounded mt-4">
+            <h2 class="text-center mb-4">Nuestros Productos</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Marca</th>
+                            <th>Modelo</th>
+                            <th>Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Smartphone Pro</td>
+                            <td>Teléfono inteligente de última generación</td>
+                            <td>Samsung</td>
+                            <td>Galaxy S21</td>
+                            <td>S/ 1.299</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Laptop Ultra</td>
+                            <td>Laptop para profesionales</td>
+                            <td>Apple</td>
+                            <td>MacBook Pro</td>
+                            <td>S/ 1.299</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Tablet Pro</td>
+                            <td>Tablet para creativos</td>
+                            <td>Apple</td>
+                            <td>iPad Pro</td>
+                            <td>S/ 799</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Smartwatch Elite</td>
+                            <td>Reloj inteligente premium</td>
+                            <td>Samsung</td>
+                            <td>Galaxy Watch 4</td>
+                            <td>S/ 299</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Monitor Gaming</td>
+                            <td>Monitor para gaming 144Hz</td>
+                            <td>LG</td>
+                            <td>UltraGear</td>
+                            <td>S/ 449</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Teclado Mecánico</td>
+                            <td>Teclado gaming RGB</td>
+                            <td>Logitech</td>
+                            <td>G Pro</td>
+                            <td>S/ 149</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Mouse Gaming</td>
+                            <td>Mouse inalámbrico gaming</td>
+                            <td>Razer</td>
+                            <td>DeathAdder</td>
+                            <td>S/ 79</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Auriculares Pro</td>
+                            <td>Auriculares con cancelación de ruido</td>
+                            <td>Sony</td>
+                            <td>WH-1000XM4</td>
+                            <td>S/ 349</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Cámara 4K</td>
+                            <td>Cámara de acción 4K</td>
+                            <td>GoPro</td>
+                            <td>Hero 9</td>
+                            <td>S/ 399</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Altavoz Smart</td>
+                            <td>Altavoz inteligente con asistente</td>
+                            <td>Amazon</td>
+                            <td>Echo Dot</td>
+                            <td>S/ 49</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Eliminar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Seccion Galería -->
+        <section id="galeria" class="py-5 bg-warning bg-opacity-10 rounded mt-4">
+            <h2 class="text-center mb-4">Galería de Productos</h2>
+            <div class="row g-4">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)PDIR-APP-MC7U4E.webp" alt="Producto 1" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge_v2/(v2)(X)PDIR-APP-MC7U4E.webp" alt="Producto 2" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)ACT-ACC-939409.webp" alt="Producto 3" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)ACT-ACC-932981.webp" alt="Producto 4" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)PF-LOG-C920.webp" alt="Producto 5" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)ME-KIN-DTX64GB.webp" alt="Producto 6" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge_v2/(v2)(X)AMA-ECO-5CLOCKB.webp" alt="Producto 7" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge_v2/(v2)(X)AMA-ECO-POPLAV.webp" alt="Producto 8" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)LEN-TAB-ZADB035.webp" alt="Producto 9" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="https://pedidos.com/myfotos/xLarge/(X)HP-MFC-3G632A.webp" alt="Producto 10" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Contacto -->
+        <section id="contacto" class="py-5 bg-success bg-opacity-10 rounded mt-4">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="row g-3">
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                        <input type="text" class="form-control" placeholder="Nombres" required>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                        <input type="text" class="form-control" placeholder="Apellidos" required>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                        <input type="text" class="form-control" placeholder="Dirección" required>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                        <input type="tel" class="form-control" placeholder="Telefono" required>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">
+                        <select class="form-select" required>
+                            <option value="">ciudad</option>
+                            <option value="madrid">Lima</option>
+                            <option value="barcelona">Trujillo</option>
+                            <option value="valencia">Arequipa</option>
+                            <option value="sevilla">Cuzco</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control"  placeholder="" required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
